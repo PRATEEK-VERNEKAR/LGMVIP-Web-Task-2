@@ -8,7 +8,6 @@ const Header = (props) => {
                 return res.json()
         })
         .then((json)=>{
-            console.log(json);
             props.parentCallback(json);
         })
     }

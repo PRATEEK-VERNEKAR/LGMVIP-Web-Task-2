@@ -6,7 +6,6 @@ function App() {
   const [students,setStudents]=useState([]);
 
   const handleCallback=(childData)=>{
-    console.log(childData.data)
     setStudents(childData.data);
   }
   
